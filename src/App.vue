@@ -1,28 +1,23 @@
 <template>
- 
-  <img-carousel></img-carousel>
+
+   <multi-carousel></multi-carousel>
+  
 </template>
 
 <script>
+import MultiCarousel from './components/MultiCarousel.vue'
 
-import ImgCarousel from './components/ImgCarousel.vue'
 
 export default {
   name: 'App',
   components: {
-    
-    ImgCarousel
-  }
+   MultiCarousel
+  },
+
 }
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
