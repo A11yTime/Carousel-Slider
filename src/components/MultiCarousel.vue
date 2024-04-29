@@ -5,7 +5,8 @@
         role="checkbox"
         :aria-checked="item.sel"
         v-for="(item, index) in visibleItems" 
-        :key="index" @click="selected(index)" 
+        :key="index" 
+        @click="selected(index)" 
         :class="{selClass: item.sel}"
         tabindex="0" 
         class="carousel-item" >
