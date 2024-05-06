@@ -8,6 +8,7 @@
           :aria-label="`Slide ${index + 1}`"
           :tabindex="index === currentIndex ? 0 : -1"
           class="carousel-item"
+            <--- use role here if any --->
           @keydown.left="prevSlide"
           @keydown.right="nextSlide"
         >
